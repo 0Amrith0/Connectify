@@ -4,10 +4,8 @@ import useAuthUser from "../hooks/useAuthUser";
 import { useQuery } from "@tanstack/react-query";
 import { getStreamToken } from "../lib/api";
 
-import {
-  Channel, ChannelHeader, Chat, MessageInput,
-  MessageList, Thread, Window,
-} from "stream-chat-react";
+import { Channel, ChannelHeader, Chat, MessageInput,
+  MessageList, Thread, Window} from "stream-chat-react";
 import { StreamChat } from "stream-chat";
 import toast from "react-hot-toast";
 
